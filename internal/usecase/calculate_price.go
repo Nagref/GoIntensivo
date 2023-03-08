@@ -1,6 +1,6 @@
 package usecase
 
-import "github.com/Nagref/Gointensivo/internal/entity"
+import "github.com/Nagref/GoIntensivo/internal/entity"
 
 type OrderInputDTO struct {
 	ID    string

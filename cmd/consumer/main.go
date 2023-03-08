@@ -6,10 +6,10 @@ import (
 	"fmt"
 
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/devfullcycle/gointensivo2/internal/infra/database"
-	"github.com/devfullcycle/gointensivo2/internal/usecase"
-	"github.com/devfullcycle/gointensivo2/pkg/kafka"
-	"github.com/devfullcycle/gointensivo2/pkg/rabbitmq"
+	"github.com/Nagref/GoIntensivo/internal/infra/database"
+	"github.com/Nagref/GoIntensivo/internal/usecase"
+	"github.com/Nagref/GoIntensivo/pkg/kafka"
+	"github.com/Nagref/GoIntensivo/pkg/rabbitmq"
 	amqp "github.com/rabbitmq/amqp091-go"
 
 	// sqlite3 driver

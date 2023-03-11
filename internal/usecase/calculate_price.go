@@ -39,4 +39,3 @@ func (c *CalculateFinalPrice) Execute(input OrderInputDTO) (*OrderOutputDTO, err
 		FinalPrice: order.FinalPrice,
 	}, nil
 }
-
